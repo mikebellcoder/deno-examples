@@ -35,7 +35,7 @@ jobs:
       # - name: Verify formatting
       #   run: deno fmt --check
       - name: Change Dir
-        run: cd ./fresh/fresh-project
+        run: cd ./fresh/fresh-project && pwd
 
       - name: Run linter
         run: deno lint
