@@ -31,6 +31,6 @@ jobs:
         with:
           project: "exciting-carp-38"
           entrypoint: ""
-          root: "fresh/fresh-project"
+          root: ""
           
           
