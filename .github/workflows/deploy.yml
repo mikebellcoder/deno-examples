@@ -25,6 +25,7 @@ jobs:
 
       - name: Build step
         run: "deno task build"
+        working-directory: fresh/fresh-project
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
@@ -32,5 +33,6 @@ jobs:
           project: "deno-example-fresh"
           entrypoint: ""
           root: ""
+          working-directory: fresh/fresh-project
           
           
