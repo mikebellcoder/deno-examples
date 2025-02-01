@@ -32,7 +32,6 @@ jobs:
         with:
           project: "deno-example-fresh"
           entrypoint: ""
-          root: ""
-          working-directory: fresh/fresh-project
+          root: "fresh/fresh-project"
           
           
