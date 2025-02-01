@@ -31,7 +31,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "deno-example-fresh"
-          entrypoint: "fresh/fresh-project/_fresh/main.js"
-          root: "fresh/fresh-project"
+          entrypoint: "main.js"
+          root: "fresh/fresh-project/_fresh"
           
           
